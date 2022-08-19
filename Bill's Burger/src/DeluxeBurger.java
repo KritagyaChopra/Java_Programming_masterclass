@@ -4,22 +4,18 @@ public class DeluxeBurger extends  Hamburger{
         super.addHamburgerAddition1("Chips",2.75);
         super.addHamburgerAddition2("Drink",1.81);
     }
-
     @Override
     public void addHamburgerAddition1(String additionName, double additionPrice) {
         System.out.println("Cant add more in Deluxe");
     }
-
     @Override
     public void addHamburgerAddition2(String additionName, double additionPrice) {
         System.out.println("Cant add more in Deluxe");
     }
-
     @Override
     public void addHamburgerAddition3(String additionName, double additionPrice) {
         System.out.println("Cant add more in Deluxe");
     }
-
     @Override
     public void addHamburgerAddition4(String additionName, double additionPrice) {
         System.out.println("Cant add more in Deluxe");
