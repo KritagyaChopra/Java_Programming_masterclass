@@ -1,4 +1,5 @@
 public class Hamburger {
+    
     private String name;
     private String meat;
     private double price;
@@ -12,6 +13,7 @@ public class Hamburger {
     private String addition4Name;
     private double addition4Price;
 
+    
     public Hamburger(String name, String meat, double price, String breadRollType) {
         this.name = name;
         this.meat = meat;
